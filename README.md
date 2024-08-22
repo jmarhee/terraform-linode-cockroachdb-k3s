@@ -6,10 +6,10 @@ Terraform module to deploy a highly-available K3s cluster using Linode and Cockr
 
 ## Note about Database
 
-####
-# https://www.linode.com/community/questions/24834/postgresql-managed-database-404
-# Linode has PAUSED managed database provisioning.
-####
+```
+https://www.linode.com/community/questions/24834/postgresql-managed-database-404
+Linode has PAUSED managed database provisioning.
+```
 
 This project uses CockroachDB to provide the managed database. This repository contains commented out segments that can be used to enable the Linode managed database components for accounts where this feature is available in `linodes.tf` and `database.tf`.
 
